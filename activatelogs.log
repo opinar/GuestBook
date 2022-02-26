@@ -1,0 +1,73 @@
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:18:07] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:19:37] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:20:28] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:21:10] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:21:50] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:22:08] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:root:User (example123) has been registered
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:26:00] "POST /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:26:06] "GET /api/users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+ERROR:root:Login unsuccessful since user is not found.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:40:30] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:41:02] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+INFO:root:User (pinaroz) has been registered
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:41:17] "POST /api/register HTTP/1.1" 200 -
+INFO:root:User (pinaroz) logged in.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:41:27] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:41:31] "GET /api/current_user HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:44:51] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:44:54] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:45:06] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+INFO:root:User (pinarozs) has been registered
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:45:19] "POST /api/register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/users/schemas.py', reloading
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:45:57] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:46:06] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:46:17] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+INFO:root:User () has been registered
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:46:22] "POST /api/register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/users/schemas.py', reloading
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:52:18] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:52:22] "[35m[1mPOST /api/register HTTP/1.1[0m" 500 -
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:52:36] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 09:52:39] "GET /api/users HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/users/model.py', reloading
+ERROR:root:User cannot be registered due to schema errors.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:16:58] "[31m[1mPOST /api/register HTTP/1.1[0m" 422 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/guestbooks/schemas.py', reloading
+INFO:root:User (pinaroz) has been registered
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:26:22] "POST /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:26:25] "GET /api/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:26:29] "GET /api/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:26:49] "[35m[1mGET /api/guestbooks HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:31:23] "[35m[1mGET /api/login?next=%2Fapi%2Fguestbook HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:31:50] "GET /api/users HTTP/1.1" 200 -
+INFO:root:User (pinaroz) logged in.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:31:55] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:31:57] "[35m[1mPOST /api/guestbook HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:root:GuestBook has been sent.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:32:22] "POST /api/guestbook HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:32:37] "[35m[1mPOST /api/guestbook HTTP/1.1[0m" 500 -
+INFO:root:GuestBook has been sent.
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:32:56] "POST /api/guestbook HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:33:01] "GET /api/guestbooks HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Feb/2022 10:33:03] "GET /api/guestbooks HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ozgepinar/Desktop/GuestBook/app.py', reloading
